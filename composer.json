@@ -1,0 +1,14 @@
+{
+    "name": "fmo/fmo-logger-bundle",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fmo\\FmoLoggerBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "symfony/framework-bundle": "^6.2"
+    }
+}
