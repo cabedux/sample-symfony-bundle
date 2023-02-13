@@ -9,6 +9,6 @@
     },
     "require": {
         "php": ">=7.4",
-        "symfony/framework-bundle": "6.1"
+        "symfony/framework-bundle": "6.1.*"
     }
 }
