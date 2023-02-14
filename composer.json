@@ -1,6 +1,6 @@
 {
     "name": "fmo/fmo-logger-bundle",
-    "type": "library",
+    "type": "symfony-bundle",
     "license": "MIT",
     "autoload": {
         "psr-4": {
