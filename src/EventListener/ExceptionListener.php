@@ -1,14 +1,12 @@
 <?php
 
-namespace Fmo\FmoLoggerBundle\EventSubscriber;
+namespace Fmo\FmoLoggerBundle\EventListener;
 
 use Fmo\FmoLoggerBundle\Exception\CustomException;
-use Symfony\Component\EventDispatcher\Attribute\AsEventListener;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 use Symfony\Component\Serializer\SerializerInterface;
 
-#[AsEventListener]
 class ExceptionListener
 {
     private SerializerInterface $serializer;
