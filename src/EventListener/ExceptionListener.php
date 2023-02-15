@@ -16,6 +16,22 @@ class ExceptionListener
         $this->serializer = $serializer;
     }
 
+    public function onKernelException(ExceptionEvent $event): void
+    {
+        $exception = $event->getThrowable();
+
+        if (!$exception instanceof CustomException) {
+            return;
+        }
+
+        $message = ['errors' => $exception->serializeErrors()];
+
+        $response = new Response();
+        $response->setContent($this->serializer->serialize($message, 'json'));
+
+        $event->setResponse($response);
+    }
+
     public function __invoke(ExceptionEvent $event): void
     {
         $exception = $event->getThrowable();
