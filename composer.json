@@ -1,10 +1,10 @@
 {
-    "name": "fmo/fmo-logger-bundle",
+    "name": "fmo/logger-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fmo\\FmoLoggerBundle\\": "src/"
+            "Fmo\\LoggerBundle\\": "src/"
         }
     },
     "require": {

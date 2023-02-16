@@ -1,6 +1,6 @@
 <?php
 
-namespace Fmo\FmoLoggerBundle\Exception;
+namespace Fmo\LoggerBundle\Exception;
 
 use Exception;
 use stdClass;
