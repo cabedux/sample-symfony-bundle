@@ -9,12 +9,12 @@ use Symfony\Component\Serializer\SerializerInterface;
 
 class ExceptionListener
 {
-//    private SerializerInterface $serializer;
-//
-//    public function __construct(SerializerInterface $serializer)
-//    {
-//        $this->serializer = $serializer;
-//    }
+    private SerializerInterface $serializer;
+
+    public function __construct(SerializerInterface $serializer)
+    {
+        $this->serializer = $serializer;
+    }
 
     public function __invoke(ExceptionEvent $event): void
     {
@@ -24,11 +24,11 @@ class ExceptionListener
             return;
         }
 
-//        $message = ['errors' => $exception->serializeErrors()];
-//
-//        $response = new Response();
-//        $response->setContent($this->serializer->serialize($message, 'json'));
+        $message = ['errors' => $exception->serializeErrors()];
 
-        $event->setResponse(new Response('OK'));
+        $response = new Response();
+        $response->setContent($this->serializer->serialize($message, 'json'));
+
+        $event->setResponse($response);
     }
 }
