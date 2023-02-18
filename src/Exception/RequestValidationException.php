@@ -7,18 +7,22 @@ use stdClass;
 
 class RequestValidationException extends CustomException
 {
-    private string $string;
+    private array $errors;
 
-    public function __construct(string $string)
+    public function __construct(array $errors)
     {
-        parent::__construct($string, 500);
-        $this->string = $string;
+        parent::__construct('Invalid request parameters', 500);
+        $this->errors = $errors;
     }
 
     public function serializeErrors(): array
     {
-        return [
-            [ 'message' => $this->string ], [ 'message' => 'another error']
-        ];
+        $errList = [];
+
+        foreach ($this->errors as $err) {
+            $errList[] = [ 'message' => $err ];
+        }
+
+        return $errList;
     }
 }
