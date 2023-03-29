@@ -1,0 +1,4 @@
+saludo:
+  path: /saludo
+  controller: App\Controller\TestController::index
+  methods: [GET]

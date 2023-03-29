@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fmo\\LoggerBundle\\": "src/"
+            "scabedo\\TestBundle\\": "src/"
         }
     },
     "require": {

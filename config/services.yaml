@@ -1,5 +1,0 @@
-services:
-  Fmo\LoggerBundle\EventListener\ExceptionListener:
-    arguments:
-      $serializer: "@Symfony\\Component\\Serializer\\SerializerInterface"
-    tags: [kernel.event_listener]

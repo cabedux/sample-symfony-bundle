@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 
-final class FmoLoggerExtension extends Extension
+final class SampleBundleExtension extends Extension
 {
     /**
      * @throws Exception
