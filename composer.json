@@ -1,5 +1,5 @@
 {
-    "name": "fmo/logger-bundle",
+    "name": "scabedo/simple-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "autoload": {
