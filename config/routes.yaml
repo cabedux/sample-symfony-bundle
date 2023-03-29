@@ -1,4 +1,4 @@
 saludo:
   path: /saludo
-  controller: App\Controller\TestController::index
+  controller: scabedo\TestBundle\Controller\TestController::index
   methods: [GET]

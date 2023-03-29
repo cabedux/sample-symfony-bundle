@@ -1,6 +1,6 @@
 <?php
 
-namespace Fmo\LoggerBundle\DependencyInjection;
+namespace scabedo\TestBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;
@@ -19,3 +19,4 @@ final class SampleBundleExtension extends Extension
         $loader->load('routes.yaml');
     }
 }
+
