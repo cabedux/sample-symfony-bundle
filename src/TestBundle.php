@@ -10,4 +10,11 @@ class TestBundle extends AbstractBundle
     {
         return \dirname(__DIR__);
     }
+    public function configure(DefinitionConfigurator $definition): void
+    {
+        // loads config definition from a file
+        $definition->import('/../../config/routes.yaml');
+
+        ;
+    }
 }
