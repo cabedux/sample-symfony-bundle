@@ -1,0 +1,5 @@
+services:
+  scabedo\sampleBundle\Controller\TestController:
+    autowire: true
+    tags: [ 'controller.service_arguments' ]
+  
