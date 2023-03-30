@@ -1,6 +1,6 @@
 sample_hello_saludo:
   path: /saludo
-  controller: scabedo\sampleBundle\Controller\TestController::index
+  controller: scabedo\samplehello\Controller\TestController::index
   methods: [GET]
   options:
     expose: true

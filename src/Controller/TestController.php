@@ -1,6 +1,6 @@
 <?php
 
-namespace scabedo\samplebundle\Controller;
+namespace scabedo\samplehello\Controller;
 
 class TestController extends \Symfony\Bundle\FrameworkBundle\Controller\AbstractController
 {

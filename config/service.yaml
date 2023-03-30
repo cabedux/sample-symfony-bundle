@@ -1,4 +1,4 @@
 services:
-  scabedo\samplebundle\Controller\:
+  scabedo\samplehello\Controller\:
     resource: '../src/Controller/'
     tags: [ 'controller.service_arguments' ]
