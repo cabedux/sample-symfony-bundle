@@ -1,10 +1,10 @@
 {
-    "name": "scabedo/samplehello",
+    "name": "scabedo/samplebundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "scabedo\\sampleBundle\\": "src/"
+            "scabedo\\samplebundle\\": "src/"
         }
     },
     "require": {

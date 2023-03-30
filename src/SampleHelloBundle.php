@@ -1,6 +1,6 @@
 <?php
 
-namespace scabedo\sampleBundle;
+namespace scabedo\samplebundle;
 
 
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;

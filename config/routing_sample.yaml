@@ -1,4 +1,0 @@
-sample_hello_saludo:
-  path: /saludo
-  controller: scabedo\TestBundle\Controller\TestController::index
-  methods: [GET]
