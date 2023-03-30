@@ -16,7 +16,7 @@ final class SampleHelloExtension extends Extension
     public function load(array $configs, ContainerBuilder $container)
     {
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../../config'));
-        $loader->load('routing.yaml');
+        $loader->load('routing-sample.yaml');
     }
 }
 
