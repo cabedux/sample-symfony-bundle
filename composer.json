@@ -1,5 +1,5 @@
 {
-    "name": "scabedo/sampleHello",
+    "name": "scabedo/samplehello",
     "type": "symfony-bundle",
     "license": "MIT",
     "autoload": {

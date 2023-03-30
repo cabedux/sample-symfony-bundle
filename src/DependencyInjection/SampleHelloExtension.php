@@ -1,6 +1,6 @@
 <?php
 
-namespace scabedo\sampleHello\DependencyInjection;
+namespace scabedo\samplehello\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;
