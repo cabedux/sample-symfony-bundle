@@ -1,10 +1,11 @@
 <?php
 
-namespace scabedo\samplehello;
+namespace scabedo\sampleBundle;
 
-use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-class SampleHelloBundle extends AbstractBundle
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+class SampleHelloBundle extends Bundle
 {
     public function getPath(): string
     {

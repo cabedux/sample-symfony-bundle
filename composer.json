@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "scabedo\\samplehello\\": "src/"
+            "scabedo\\sampleBundle\\": "src/"
         }
     },
     "require": {
